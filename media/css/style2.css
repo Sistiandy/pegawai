@@ -1,0 +1,158 @@
+/* Space out content a bit */
+body {
+    background-color:#FCFBCA;
+    padding-bottom: 20px;
+}
+.container-atas{
+    padding-left: 50px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+.form-signin {
+    width: 100%;
+    height:260px;
+    padding: 15px;
+    margin: 0 auto;
+    border:1px solid #f4f4f4;
+    background:rgba(255,255,255,.5);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow: 0 0 5px #aaa;
+    -moz-box-shadow: 0 0 5px #aaa;
+    box-shadow: 0 0 5px #aaa;
+}
+.form-signin-heading {
+    font-family:ubuntu;
+    text-align:center;
+    color:#1384F2;
+    font-size:20pt;
+}
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+    padding-top: 50px;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+    .col-lg-6-1{
+        width:100%;
+        height:340px;
+        padding-left: 5px;
+        padding-bottom: 30px;
+    }	
+    .event{
+        font-family:ubuntu;
+        color: #1384F2;
+        height:20px;
+    }
+    .isi{
+        border-collapse: separate;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .info{
+        background: #1e5799; /* Old browsers */
+        background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+        color:white;
+    }
+    .table{
+        box-shadow: 5px 5px 7px #222;
+        -moz-box-shadow: 2px 2px 7px #222;
+        -webkit-box-shadow: 2px 2px 7px #222;
+    }
+    }
+    .col-table{
+        padding-left:15px;
+    }
+    .image{
+        border-collapse:separate;
+        border-radius:10px;
+    }
+    .text{
+        text-align:justify;
+    }  
+    .form-add{
+        width: 50%;
+        padding: 20px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        border-radius:10px;
+        -webkit-box-shadow: 0 0 5px #aaa;
+        -moz-box-shadow: 0 0 5px #aaa;
+        box-shadow: 0 0 5px #aaa;
+        border-collapse: separate;
+        border-radius: 15px;
+    }
+    
+
